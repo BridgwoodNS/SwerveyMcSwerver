@@ -24,7 +24,7 @@ public final class Constants {
         public static final double openLoopRamp = 0.25;
         public static final double closedLoopRamp = 0.0;
 
-        public static final double driveGearRatio = (6.75 / 1.0); //6.75:1  Assuming we got Fast L2
+        public static final double driveGearRatio = (8.14 / 1.0); //6.75:1  Assuming we got Fast L2...Nope we got standard I think :/
         public static final double angleGearRatio = (150 / 7.0); //150/7.0:1
 
         public static final SwerveDriveKinematics swerveKinematics = new SwerveDriveKinematics(
